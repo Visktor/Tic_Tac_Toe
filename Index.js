@@ -40,9 +40,9 @@ boardSquares.forEach((square) => {
     if (!this.symbol) {
       this.symbol = game.board.players[game.i].symbol;
       this.textContent = game.board.players[game.i].symbol;
-      if (game.i === 0) {
-        game.i = 1;
-      } else game.i = 0;
     }
+    if (game.i === 0) {
+      game.i = 1;
+    } else game.i = 0;
   });
 });
