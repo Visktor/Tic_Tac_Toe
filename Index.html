@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="Index.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>Tic Tac Toe</h1>
     <main>
-      <sec class="whosturn">
-        <h2 class="Turn">Turn -</h2>
-        <div class="Turn_Icon"></div>
-      </sec>
+        <div class="playerMaker">
+            <input type="text" placeholder="jhon doe"></input>
+            <button class="addPlayer">Add</button>
+        </div>
 
-      <div class="container">
-        <div class="square1 inner"></div>
-        <div class="square2 inner"></div>
-        <div class="square3 inner"></div>
-        <div class="square4 inner"></div>
-        <div class="square5 inner"></div>
-        <div class="square6 inner"></div>
-        <div class="square7 inner"></div>
-        <div class="square8 inner"></div>
-        <div class="square9 inner"></div>
-      </div>
+        <div class="score">
+            <div class="player1">
+                <p class="player1_name"></p>
+                <p class="play1Score"></p>
+            </div>
+            <div class="player2">
+                <p class="player2_name"></p>
+                <p class="play2Score"></p>
+            </div>
+        </div>
+
+        <div class="whosturn">
+            <h2 class="turn">Turn -</h2>
+            <div class="turn_Icon"></div>
+        </div>
+
+        <div class="container">
+            <div class="square1 inner"></div>
+            <div class="square2 inner"></div>
+            <div class="square3 inner"></div>
+            <div class="square4 inner"></div>
+            <div class="square5 inner"></div>
+            <div class="square6 inner"></div>
+            <div class="square7 inner"></div>
+            <div class="square8 inner"></div>
+            <div class="square9 inner"></div>
+        </div>
     </main>
 
     <footer></footer>
 
     <script src="Index.js"></script>
-  </body>
+</body>
+
 </html>

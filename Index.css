@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: grey;
 }
 
@@ -23,9 +23,9 @@ main {
     gap: 15px;
 }
 
-.Turn_Icon {
-    height: 100px;
-    width: 120px;
+.turn_Icon {
+    height: 50px;
+    width: 60px;
     background-color: black;
 }
 
@@ -42,3 +42,22 @@ main {
     border: 2px solid red;
     border-collapse: collapse;
 }
+
+.playerMaker {
+    display: flex;
+    gap: 10px;
+}
+
+.playerMaker input {
+    height: 30px;
+}
+
+.addPlayer {
+    height: 30px;
+    width: 100px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
